@@ -1,7 +1,7 @@
-#imclude "main.h"
+#include "main.h"
 
 /**
- * prunt_alphabet_x10 - prints 10 times the alphabet, in lowercase
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase
  * followed by a new line
  */
 
@@ -20,7 +20,7 @@ void print_alphabet_x10(void)
 			_putchar(ch);
 			ch++;
 		}
-		_putchar(ch);
-		ch++;
+		_putchar('\n');
+		i++;
 	}
 }
