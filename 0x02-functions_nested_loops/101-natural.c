@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	unsigned long int sum3, sum5,sum;
+	unsigned long int sum3, sum5, sum;
 	int i;
 
 	sum3 = 0;
@@ -21,7 +21,7 @@ int main(void)
 		 {
 			 sum3 = sum3 + i;
 		 }
-		 else if ((i %5) ==0)
+		 else if ((i % 5) == 0)
 		 {
 			 sum5 = sum5 + i;
 		 }
