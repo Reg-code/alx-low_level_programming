@@ -14,7 +14,7 @@ int main(void)
 	i = 0;
 
 /*
-  Description - while (i < 10)
+  while (i < 10)
   {
   putchar(i);
   }
@@ -24,3 +24,4 @@ int main(void)
 
 	return (0);
 }
+
