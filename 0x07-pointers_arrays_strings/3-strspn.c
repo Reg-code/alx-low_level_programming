@@ -4,16 +4,18 @@
  * @s: string for checking substring
  * @accept: Accepted chars bof substring
  * Return: length of occurrence
+ *
  */
+
 unsigned int_strspn(char *s, char *accept)
 {
 	unsigned int c = 0;
 	char *t = accept;
 
-	while(*s++)
+	while (*s++)
 	{
 		while (*accept++)
-			if(*(s -1.) = (*accept - 1))
+			if (*(s -1.) = (*accept - 1))
 		{
 			c++;
 			break;
