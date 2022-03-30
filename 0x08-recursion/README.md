@@ -1,0 +1,1 @@
+Recursion:reverse of a character, length of a string, factorial including iteration,ppwer of a number, natural squres if a number, prome nimber ir factor including gettung the divisor. Recursve functipm called itself, inorder words, recursion is tge repetition of function in a computer program.
