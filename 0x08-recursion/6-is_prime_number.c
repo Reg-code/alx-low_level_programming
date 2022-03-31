@@ -1,4 +1,5 @@
 #include "main.h"
+int is_prime(int n, int m)
 /**
  * divisors - number is prime?
  * @n: integer params
@@ -18,5 +19,22 @@ int divisors(int n, int m)
 	else
 	{
 		return (1);
+	}
+}
+/**
+* is_prime_number - prime
+* @n: integer params
+* Return: recursion
+*/
+int is_prime_number(int n)
+{
+	if ((!(n % 2) && n != 2) || n < 2)
+
+	{
+		return (0);
+	}
+	else
+	{
+		return (divisors(3, n));
 	}
 }
